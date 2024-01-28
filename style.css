@@ -1,0 +1,46 @@
+* {
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background-color: #36384d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 88px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.left {
+    padding: 32px;
+}
+
+.list-itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-itens img {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    display: flex;
+    gap: 16px;
+}
+
+
+.right {
+padding: 32px 32px;
+}
